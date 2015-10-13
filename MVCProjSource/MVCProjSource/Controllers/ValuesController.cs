@@ -24,7 +24,7 @@ namespace MVCProjSource.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            return "value8";
         }
 
         // POST api/values
