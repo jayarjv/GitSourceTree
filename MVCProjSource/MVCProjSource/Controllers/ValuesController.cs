@@ -17,14 +17,14 @@ namespace MVCProjSource.Controllers
 
         public IEnumerable<string> Get()
         {
-            return new string[] { "valueJB7", "valueJB8" };
-            return new string[] { "valueRB9", "valueRB99" };
+            ///Changes from a previous version
+            return new string[] { "value7", "value8" };
         }
 
         // GET api/values/5
         public string Get(int id)
         {
-            return "value8";
+            return "value";
         }
 
         // POST api/values
