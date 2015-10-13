@@ -17,6 +17,7 @@ namespace MVCProjSource.Controllers
 
         public IEnumerable<string> Get()
         {
+            ///Changes from a previous version
             return new string[] { "value7", "value8" };
         }
 
