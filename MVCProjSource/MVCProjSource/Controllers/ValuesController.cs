@@ -16,7 +16,7 @@ namespace MVCProjSource.Controllers
 
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value7", "value8" };
         }
 
         // GET api/values/5
